@@ -4,9 +4,9 @@ We use the latest technology like Computer Vision to empower the specially abled
 
 
 Submitted by :- 
-Sanskar Mathur
-IIT ISM Dhanbad
-Website/Application Software Engineer
+(Sanskar Mathur,
+IIT ISM Dhanbad,
+Website/Application Software Engineer)
 
 
 Steps to Run the app (for the first Time) :-
