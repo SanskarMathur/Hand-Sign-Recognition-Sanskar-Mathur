@@ -1,0 +1,134 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #10002b;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.Heading {
+  position: absolute;
+  top: 5px;
+  font-size: 24px;
+}
+
+.Logo {
+  position: relative;
+  right: 650px;
+}
+
+.Title {
+  position: relative;
+  font-size: 35px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  top: 15px;
+}
+
+.webcam,
+.canvas {
+  position: absolute;
+  top: 115px;
+  left: 50px;
+  width: 640;
+  height: 480;
+  border: 2px;
+  border-radius: 10px;
+}
+
+.cam-off {
+  position: absolute;
+  border: 2px solid #7b2cbf;
+  padding: 185px 270px;
+  left: 40px;
+  border-radius: 10px;
+}
+
+.cam-btn {
+  position: relative;
+  background-color: #7b2cbf;
+  top: 542px;
+  left: -408px;
+  padding: 0px 10px;
+  border-radius: 10px;
+  color: white;
+}
+
+.textArea {
+  position: relative;
+  left: 400px;
+
+  min-height: 460px;
+  min-width: 620px;
+  max-width: 620px;
+  max-height: 460px;
+  padding: 10px;
+  border-radius: 10px;
+
+  color: black;
+  background-color: white;
+  
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  letter-spacing: 1px;
+  word-spacing: 15px;
+  text-align: start;
+
+  overflow-y: scroll;
+  overflow-x: none;
+}
+
+.reset-btn-class {
+  position: relative;
+  top: 20px;
+  left: 400px;
+  padding: 0px;
+}
+
+.reset-btn {
+  padding: 10px 30px;
+  border-radius: 10px;
+  background-color: #7b2cbf;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(123, 44, 191, 0.7);
+  border-radius: 10px;
+  scroll-margin-bottom: smooth;
+}
