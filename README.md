@@ -1,6 +1,6 @@
 About the Project :-
 HAND SIGN RECOGNISER is a Web Application that is a revolution in the space of communication for people who have problems in hearing and speaking.
-We use the latest technology like Computer Vision to empower the specially abled to do our part for society
+We use the latest technology like Computer Vision to predict the Hand Gestures and convert them into text in order to make it easilty readable for the world and thereby empowering the specially abled to do our part for society.
 
 
 Submitted by :- 
